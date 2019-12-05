@@ -43,6 +43,12 @@
   text-decoration: none;
 }
 /* jambo */
+.color_blue{
+  color: #0248ff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
 .jumbo {
   margin-top: 80px;
   padding: 80px 0;
@@ -57,6 +63,12 @@
 .background_jumbo {
   background-color: yellow;
   padding: 50px;
+}
+h2 {
+  text-align: center;
+  color: #031b4e;
+  font-size: 30px;
+  font-weight: bold;
 }
 h1 {
   color: white;
