@@ -2,7 +2,9 @@
   font-size: 25px;
 }
 .bg_blue{
-  background-color: #0248ff;
+  width: 100%;
+  background-image: url(../img/sfondo-blue-digitalocean.jpg);
+  background-size: cover;
 }
 
 /* header */
@@ -17,17 +19,12 @@
 
 .navbar_logo {
   width: 180px;
-  /* margin-top: 13px; */
 }
 .background_navbar {
-  background-color: red;
   line-height: 3;
 }
 .height_container_navbar {
   height: 70px;
-}
-.background_navbar_center {
-  background-color: pink;
 }
 .text-center nav ul li {
   text-decoration: none;
@@ -42,6 +39,14 @@
   color:#0148FC;
   text-decoration: none;
 }
+.button {
+  padding: 8px;
+  border: 2px solid #0069FF;
+  border-radius: 3px;
+}
+.button:hover {
+  background-color: #0069FF;
+}
 /* jambo */
 .color_blue{
   color: #0248ff;
@@ -54,14 +59,13 @@
   padding: 80px 0;
 }
 .jumbo_text {
-  width: 80%;
+  width: 65%;
   margin: 0 auto;
 }
 .container_jambo{
   width: 100%;
 }
 .background_jumbo {
-  background-color: yellow;
   margin: 10px;
 }
 h2 {
@@ -72,11 +76,12 @@ h2 {
 }
 h1 {
   color: white;
-  font-size: 4em;
+  font-size: 6em;
 }
 .p_jambo {
   color: #AAC2FF;
   font-weight: 700;
+  font-size: 30px;
 }
 .box_jumbo {
   background-color: white;
