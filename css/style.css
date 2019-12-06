@@ -50,7 +50,7 @@
 /* jambo */
 .color_blue{
   color: #0248ff;
-  font-size: 30px;
+  font-size: 45px;
   font-weight: bold;
   text-align: center;
 }
@@ -65,13 +65,10 @@
 .container_jambo{
   width: 100%;
 }
-.background_jumbo {
-  margin: 10px;
-}
 h2 {
   text-align: center;
   color: #031b4e;
-  font-size: 30px;
+  font-size: 45px;
   font-weight: bold;
 }
 h1 {
@@ -86,4 +83,32 @@ h1 {
 .box_jumbo {
   background-color: white;
   border-radius: 8px;
+}
+.p_tabel {
+  margin: 20px;
+  text-align: center;
+}
+.underscore {
+  text-decoration: underline;
+}
+/* main */
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #BCC2D1;
+}
+.img-rounded {
+  width: 100%;
+  height: 100px;
+  margin: 20px;
+}
+h4 {
+  text-align: center;
+  color: #005FE6;
+}
+h4 a:hover {
+text-decoration: none;
 }
