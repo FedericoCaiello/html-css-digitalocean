@@ -186,7 +186,46 @@ h6 {
 }
 .padding_box {
   padding: 20px;
-  /* margin-top: 10px; */
+}
+.create_doplet {
+  text-align: center;
+  margin-top: 80px;
+}
+.size_create_doplet{
+  width: 50%;
+}
+.container .row .create_doplet a {
+  font-size: 50px;
+  margin: 20px;
+}
+.under_doplet{
+  color: #031B4E;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.pallini_blue{
+  color: blue;
+}
+.palline p a i {
+  font-size: 15px;
+  margin: 20px;
+}
+.larghezza_testo {
+  font-weight: bold;
+}
+.spazio_sopra{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.background_blue_main{
+  background-color: blue;
+  height: 100px;
+}
+.titolone_white {
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
 }
 /* main */
 
