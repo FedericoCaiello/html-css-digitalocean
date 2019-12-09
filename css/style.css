@@ -193,7 +193,7 @@ h6 {
 }
 .spazio_sopra{
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .background_blue_main{
   color: white;
@@ -209,6 +209,90 @@ h6 {
   border-bottom: 1px solid white;
 }
 /* main */
+/* footer */
+.background_blue_footer {
+  background-color: #0036bf;
+  width: 100%;
+}
+
+.button_footer {
+  background-color: white;
+  padding: 8px;
+  border: 2px solid white;
+  border-radius: 4px;
+  color: #0147fe;
+  font-size: 16px;
+  font-weight: bold;
+}
+.button_footer_center {
+  text-align: center;
+}
+
+footer {
+  background-color: #010E28;
+  width: 100%;
+  color:#9498B3;
+}
+footer img {
+  padding-bottom: 20px;
+}
+footer i {
+  padding: 6px;
+  font-size: 1.3em;
+}
+footer h4 {
+  color:white;
+  font-weight: bold;
+}
+footer a {
+  display: block;
+  text-decoration: none;
+  color: #9498B3;
+}
+.write_fish {
+  background-color: white;
+  height: 90px;
+  vertical-align: middle;
+  padding-top:33px;
+  border: 1 px solid white;
+  border-radius: 6px;
+}
+.fish_mobile{
+ position: fixed;
+ bottom: 0;
+ margin-left: 55%;
+ width: 100%;
+ z-index: 2;
+}
+​
+.fish_mobile img {
+  height: 90px;
+  background-color: lightblue;
+  padding-top: 15px;
+  border: 1 px solid lightblue;
+  border-radius: 6px;
+}
+.fish {
+  position: relative;
+}
+.number {
+  position: absolute;
+  top:-5px;
+  left: 70px;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.number p {
+  padding-top: 3px;
+}
+.padding_top_40px {
+  padding-top: 40px;
+}
+/* finish footer */
 
 @media screen and (max-width: 768px){
   .display_flex li {
