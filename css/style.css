@@ -64,9 +64,9 @@
   width: 65%;
   margin: 0 auto;
 }
-.container_jambo{
+/* .container_jambo{
   width: 100%;
-}
+} */
 h2 {
   text-align: center;
   color: #031b4e;
@@ -75,7 +75,7 @@ h2 {
 }
 h1 {
   color: white;
-  font-size: 6em;
+  font-size: 5em;
 }
 .p_jambo {
   color: #AAC2FF;
@@ -181,7 +181,7 @@ h6 {
   margin-top: 20px;
   font-weight: bold;
 }
-.pallini_blue{++
+.pallini_blue{
   color: blue;
 }
 .palline p a i {
@@ -192,7 +192,7 @@ h6 {
   font-weight: bold;
 }
 .spazio_sopra{
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 .background_blue_main{
@@ -213,5 +213,11 @@ h6 {
 @media screen and (max-width: 768px){
   .display_flex li {
     width: 50%;
+  }
+  h1 {
+    font-size: 3.5em;
+  }
+  .p_jambo {
+    font-size: 20px;
   }
 }
